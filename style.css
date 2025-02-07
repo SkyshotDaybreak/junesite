@@ -1,3 +1,11 @@
+body {
+    background: #F29D5E;
+}
+
+main {
+    padding: 2%;
+}
+
 #centerWindow {
     margin: auto;
     width: 40vw;
@@ -5,6 +13,7 @@
 }
 
 .border {
+    background:#ffdfbf;
     border-color:black;
     border-style:solid;
     border-width: 2px;
@@ -34,11 +43,11 @@
   }
 
   #sideCat1{
-    width: 20vw;
     height: 20vw;
+    width: 20vw;
   }
 
-  #sideCat2{
+  #gallery{
     height: 20vw;
     width: 20vw;
   }
