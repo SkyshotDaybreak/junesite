@@ -30,16 +30,15 @@
 
   .content{
     padding: 3%;
+    text-align: center;
   }
 
   #sideCat1{
     width: 20vw;
     height: 20vw;
-    float: left;
   }
 
   #sideCat2{
     height: 20vw;
     width: 20vw;
-    float: left;
   }
