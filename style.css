@@ -2,6 +2,16 @@ body {
     background: #F29D5E;
 }
 
+#intro{
+  width: 100vw;
+  height: 100vw;
+  /* display: none; */
+  background-image: url("images/june.png");
+  background-size:contain;
+  text-align: center;
+  font-size:10vw;
+}
+
 main {
     padding: 2%;
 }
