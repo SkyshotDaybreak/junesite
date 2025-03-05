@@ -9,10 +9,18 @@
     <body>
 
     <!-- intro -->
-    <div id="intro">
+    <div id="introBlock">
+        <script>
+            document.querySelector("#introClick").addEventListener("click", () => {
+                document.querySelector("#introBlock").style.diplay = "none";
+            });
+            // document.getElementById("introClick").onclick = function () {
+            //    document.getElementById("introBlock").style.display = "none";
+            // };
+        </script>
         <p >
             JUNEBUG.SVG <br>
-            * enter *
+            * <span id="introClick">enter</span> *
         </p>
         <!-- <img src="images/june.png" style="width: 100vw;"> -->
     </div>
@@ -29,7 +37,7 @@
                          --- [ ] X
                      </div>
                  </div>
-                  cat
+                 <img src="/images/sillycat.gif" style="width: inherit;">
              </div>
              
              <!-- side -->
@@ -40,7 +48,8 @@
                          --- [ ] X
                      </div>
                  </div>
-                  cat2
+                 <!-- gallery link -->
+                  <a href="/index.html" style="width: inherit;"><img src="/images/gal.gif" style="width: inherit;"></a>
              </div>
 
          </div>
@@ -55,9 +64,15 @@
                 </div>
             </div>
             <div class="content">
-                <p>
-                    [ JUNEBUG.SVG ] <br>
-                    haii blah blah furry
+                <h1 style="font-family: overbit, 'Times New Roman', Times, serif; font-size: 4em;">[ JUNEBUG.SVG ] <br></h1>
+                <p style="font-family: rimouski, 'Times New Roman', Times, serif; font-size: 1.2em;">
+                    <span style="font-size: 1.5em;">Hi! I'm T'ii (she/they) :></span>
+                    <br><br><br>I am a self-taught artist from Washington State who specializes in character design and storytelling influenced by 2010s western cartoons. 
+                    
+                    <br><br><br>I have been drawing and pursuing illustration and the artistic field as a whole since I was as young as 4. In the present, I am currently studying at Milwaukee Institute of Art and Design, pursuing a degree in illustration and animation.
+                    
+                    <br><br><br>I hope you enjoy your stay here! <3
+
                     <hr>
                     [ CONTACT ] <br>
                     <a href="https://www.instagram.com/junebug.svg/?hl=en">insta <br>

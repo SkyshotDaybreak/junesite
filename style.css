@@ -1,11 +1,21 @@
-body {
-    background: #F29D5E;
+@font-face {
+  font-family:overbit;
+  src: url(/font/Overbit\ DEMO.otf)
+}
+@font-face {
+  font-family: rimouski;
+  src: url(/font/rimouski\ sb.otf);
 }
 
-#intro{
+body {
+    background: #F29D5E;
+    color: #7b5aa2;
+}
+
+#introBlock{
   width: 100vw;
   height: 100vw;
-  /* display: none; */
+  display: none;
   background-image: url("images/june.png");
   background-size:contain;
   text-align: center;
@@ -19,11 +29,11 @@ main {
 #centerWindow {
     margin: auto;
     width: 40vw;
-    height: 40vw;
+    height: 45vw;
 }
 
 .border {
-    background:#ffdfbf;
+    background:white;
     border-color:black;
     border-style:solid;
     border-width: 2px;
@@ -53,11 +63,11 @@ main {
   }
 
   #sideCat1{
-    height: 20vw;
-    width: 20vw;
+    height: 14vw;
+    width: 22vw;
   }
 
   #gallery{
-    height: 20vw;
-    width: 20vw;
+    height: 24vw;
+    width: 22vw;
   }
